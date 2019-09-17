@@ -1,0 +1,23 @@
+/* Footer css starts */
+#footer {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+.logo_bottom {
+    height: 70px;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.content_text2 {
+    font-size: 18px;
+    color: white;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.content1 {
+    float: left;
+}
+/* Footer css ends */

@@ -1,0 +1,35 @@
+@import url("header.css");
+@import url("image_rollover.css");
+@import url("image_box.css");
+@import url("footer.css");
+
+
+.genre_des {
+    font-size: 25px;
+    color: white;
+    opacity: 1.0;
+    padding-left: 100px;
+    padding-right: 100px;
+    opacity: 0.9;
+    
+}
+
+
+table {
+    width: 100%;
+}
+tr td {
+    text-align: center;
+    padding: 40px;
+}
+body {
+    background-image: url(../res/img/action_adventure/aa3.jpg);
+    margin: 0;
+    background-size: cover;
+
+
+}
+#head {
+    font-size: 50px;
+    color: black;
+}

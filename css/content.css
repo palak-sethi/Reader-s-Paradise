@@ -1,0 +1,43 @@
+.heading{
+    width:100%;
+    background-color: brown;
+    padding:2%;
+}
+
+.section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+
+.section1 .row
+{
+    margin-top: 10%;
+}
+
+.image 
+{
+    text-align: center;
+}
+
+.image img{
+    width: 40%;
+    margin-top: 40px;
+}
+
+.para{
+    padding:3%;
+}
+
+.bookname{
+    color:white;
+    font-size: 70px;
+    font: normal 'century gothic', arial, sans-serif;
+    font-weight: lighter;
+}
+.authorname{
+    color:white;
+    font-size: 45px;
+    text-align: right;
+    font: normal'century gothic', arial, sans-serif;
+    font-weight: lighter;
+}

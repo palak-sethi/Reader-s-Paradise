@@ -1,0 +1,38 @@
+/* Header css starts */
+#header {
+    height: 85px;
+    width: 100%;
+    background-color: black;
+    
+}
+.logo {
+    height: 85px;
+    width: 290px;
+}
+ul {
+    margin: 0;
+}
+li {
+    float: right;
+    font-size: 20px;
+    color: white;
+}
+.top_right {
+    transition: 0.5s ease;
+}
+.top_right:link, .top_right:visited {
+    background-color: black;
+    color: white;
+    padding: 31px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.top_right:active {
+    background-color: #636e72;
+}
+.top_right:hover {
+    background-color: #636e72;
+    color: #0fbcf9;
+}

@@ -1,0 +1,240 @@
+/* Header css starts */
+#header {
+    height: 85px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.logo {
+    height: 85px;
+    width: 290px;
+}
+ul {
+    margin: 0;
+    padding-right: 80px;
+}
+.dropdown{
+    float: right;
+    font-size: 20px;
+    color: white;
+    
+}
+.top_right {
+    -webkit-transition: 0.5s ease;
+    
+}
+.top_right:link, .top_right:visited {
+    background-color: black;
+    color: white;
+    padding: 31px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.top_right:active {
+    background-color: #636e72;
+    
+}
+.top_right:hover {
+    background-color: #636e72;
+    color: #0fbcf9;
+    
+}
+/* Dropdown list css starts*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display:  none;
+    position: absolute;
+    background-color: #2d3436;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin:0 auto;
+    
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    
+}
+.dropdown-content a:hover {
+    background-color: #636e72;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown list css ends*/
+
+
+/* Header css ends */
+
+/* Main body css starts */
+body {
+    margin: 0;
+}
+#main_2 {
+    height: 2000px;
+    width: 100%;
+    background-color: white;
+
+}
+.content_text {
+    color: white;
+    font-size: 25px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+table {
+    width: 80%;
+    height: 500px;
+}
+.des {
+    font-size: 20px;
+    padding: 5px;
+    font-family: Palatino;
+}
+.cover {
+    height: 170px;
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+tr td {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+#left {
+    width: 80%;
+    height: 2000px;
+    float: left;
+    left: 0;
+    background-image: url(../res/img/index/bg12.jpg);
+    background-size: cover;
+    margin: 0;
+    
+}
+hr {
+    height: 5px;
+    background-color: black;
+}
+/* Card format css starts */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #c7ecee;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color:  whitesmoke;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding-bottom: 0px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    height:70px;
+    width: 100%;
+    font-size: 18px;
+    -webkit-transition: 0.3s ease;
+}
+.card button:hover {
+
+        background: rgba(0,0,0,0);
+        color: black;
+        box-shadow: inset 0 0 0 3px black;
+        background-color: white;
+
+}
+/* Card format css ends */
+
+
+/* Right sidebar css starts */
+#right {
+    width: 20%;
+    height: 2000px;
+    float: right;
+    background-image: url(../res/img/index/texture-wallpaper-5.jpg);
+    background-size: cover;
+
+}
+.fact_title {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.fact {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #6D214F;
+    margin: auto;
+    font-family: arial;
+    background-color: #CAD3C8;
+    border-radius: 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+
+}
+.fact:hover {
+    background-color: #f7f1e3;
+}
+.right_padding {
+        padding: 10px;
+}
+
+/* Right sidebar ends */
+/* Main body css ends */
+
+/* Footer css starts */
+#footer {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+.logo_bottom {
+    height: 70px;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.content_text2 {
+    font-size: 18px;
+    color: white;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.content1 {
+    float: left;
+}
+/* Footer css ends */
+ol, ul { list-style: none; }

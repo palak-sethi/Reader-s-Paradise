@@ -1,0 +1,31 @@
+.image{
+  height:200px;
+  width:150px;
+  margin: 5%;
+}
+
+#myInput{
+  margin-top: 10%;
+}
+.main{
+  width:100%;
+}
+.box{
+  font: normal 200% 'century gothic', arial, sans-serif;
+  text-decoration:none;
+  color:black;
+}
+.link{
+  color:black;
+}
+.link:hover{
+  color:black;
+  text-decoration:none;
+}
+#myInput{
+  width:100%;
+}
+.row:hover{
+  background-color:#E0AC69;
+  transition: 0.2s ease-in;
+}
