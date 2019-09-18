@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/searchfilter.css">
+  
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery.min.js"></script>  
+  <script src="../js/transition.js"></script>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="../css/header.css">
+  	<!--Side Nav Starts-->
+	<div class="nav navbar-fixed-top">
+
+      <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.html">Home</a>
+      <a href="./explore.html">Explore</a>
+      <a href="./search.html">Search</a>
+      <a href="./aboutus.html">About</a>
+      </div>
+  
+    <div class="headlogo">
+      <img src="../res/icons/logofull2.png">
+    </div>
+  
+    <span class="menu" style="font-size:45px;cursor:pointer;color:black;" onclick="openNav()">&#9776; </span>
+  
+    </div>
+      <!--Side Nav Ends-->
+
+
+</head>
+<body>
+
+    <div class="container">
+        <input class="form-control" id="myInput" type="text">
+        <br>
+        <table class="main">
+
+            <tbody id="myTable">
+    
+              <tr class="row">            
+                <td class="box"><img src="..\res\books\Angels and Demons.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\mystery\angels_and_demons.html">ANGELS AND DEMONS</a></td>
+                <td class="box">Dan Brown</td>
+                <td class="box">Mystery</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\as you like it.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\drama\as_you_like_it.html">AS YOU LIKE IT</a></td>
+                <td class="box">William Shakespeare</td>
+                <td class="box">Drama</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Borne.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\scifi\borne.html">BORNE</a></td>
+                <td class="box">Jeff VanderMeer</td>
+                <td class="box">SciFi</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Cannibal.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\horror\cannibal.html">CANNIBAL</a></td>
+                <td class="box">Steven Reese</td>
+                <td class="box">Horror</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Carrie.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\horror\carie.html">CARRIE</a></td>
+                <td class="box">Stephen King</td>
+                <td class="box">Horror</td>
+             </tr>
+  
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Gone Girl.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\mystery\gone_girl.html">GONE GIRL</a></td>
+                <td class="box">Gillian Flynn</td>
+                <td class="box">Mystery</td>
+             </tr>
+             
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Goosebumps.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\horror\goosebumps.html">GOOSEBUMPS</a></td>
+                <td class="box">R.L. Stine</td>
+                <td class="box">Horror</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Hamlet.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\drama\hamlet.html">HAMLET</a></td>
+                <td class="box">William Shakespeare</td>
+                <td class="box">Drama</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\hp.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\action_adventure\harry_potter.html">HARRY POTTER</a></td>
+                <td class="box">J.K. Rowling</td>
+                <td class="box">Action</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\It.png" class="image"></td>
+                <td class="box"><a class="link" href="..\html\mystery\it.html">IT</a></td>
+                <td class="box">Stephen King</td>
+                <td class="box">Mystery</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Jane Eyre.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\romance\jane_eyre.html">JANE EYRE</a></td>
+                <td class="box">Charlotte Bronte</td>
+                <td class="box">Romance</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Julius Caeser.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\drama\julius_caeser.html">JULIUS CEASER</a></td>
+                <td class="box">William Shakespeare</td>
+                <td class="box">Drama</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\life of pi.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\action_adventure\life_of_pi.html">LIFE OF PI</a></td>
+                <td class="box">Yann Martel</td>
+                <td class="box">Action</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\maze runner.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\action\maze_runner.html">MAZE RUNNER</a></td>
+                <td class="box">James Dashner</td>
+                <td class="box">Action</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\New york 2140.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\scifi\new_york_2140.html">NEW YORK 2140</a></td>
+                <td class="box">Kim Stanley Robinson</td>
+                <td class="box">Scifi</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Once and for all.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\romance\once_and_for_all.html">ONCE AND FOR ALL</a></td>
+                <td class="box">Sarah Dessen</td>
+                <td class="box">Romance</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Pride and Prejudice.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\romance\pride_and_prejudice.html">PRIDE AND PREJUDICE</a></td>
+                <td class="box">Jane Austen</td>
+                <td class="box">Romance</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\See me.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\romance\see_me.html">SEE ME</a></td>
+                <td class="box">Nicholas Sparks</td>
+                <td class="box">Romance</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Six Wakes.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\scifi\six_wakes.html">SIX WAKES</a></td>
+                <td class="box">Mur Lafferty</td>
+                <td class="box">SciFi</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\the count of monte cristo.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\action_adventure\the_count_of_monte_cristo.html">THE COUNT OF MONTE CRISTO</a></td>
+                <td class="box">Alexandre Dumas</td>
+                <td class="box">Action</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The crucible.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\drama\angels_and_demons.html">THE CRUCIBLE</a></td>
+                <td class="box">Arthur Miller</td>
+                <td class="box">Drama</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Da Vinci Code.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\mystery\the_da_vinci_code.html">THE DA VINCI CODE</a></td>
+                <td class="box">Dan Brown</td>
+                <td class="box">Mystery</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Exorcist.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\horror\the_exorcist.html">THE EXORCIST</a></td>
+                <td class="box">William Peter Blatty</td>
+                <td class="box">Horror</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\tfios.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\drama\the_fault_in_our_stars.html">THE FAULT IN OUR STARS</a></td>
+                <td class="box">John Green</td>
+                <td class="box">Drama</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Hunger Games.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\mystery\the_hunger_games.html">THE HUNGER GAMES</a></td>
+                <td class="box">Suzanne Collins</td>
+                <td class="box">Mystery</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\the lord of the rings.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\action_adventure\the_lord_of_the_rings.html">THE LORD OF THE RINGS</a></td>
+                <td class="box">J.R.R. Tolkien</td>
+                <td class="box">Action</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Martian.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\scifi\the_martian.html">THE MARTIAN</a></td>
+                <td class="box">Andy Weir</td>
+                <td class="box">SciFi</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The moon and the other.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\scifi\the_moon_and_the_other.html">THE MOON AN THE OTHER</a></td>
+                <td class="box">John Kessel</td>
+                <td class="box">SciFi</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Notebook.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\romance\the_notebook.html">THE NOTEBOOK</a></td>
+                <td class="box">Nicholas Sparks</td>
+                <td class="box">Romance</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Shining.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\mystery\the_shining.html">THE SHINING</a></td>
+                <td class="box">Stephen King</td>
+                <td class="box">Mystery</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The stars are legion.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\scifi\the_stars_are_legion.html">THE STARS ARE LEGION</a></td>
+                <td class="box">Kameron Hurley</td>
+                <td class="box">SciFi</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Suffering.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\horror\the_suffering.html">THE SUFFERING</a></td>
+                <td class="box">Rin Chupeco</td>
+                <td class="box">Horror</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The Walking Dead.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\horror\the_walking_dead.html">THE WALKING DEAD</a></td>
+                <td class="box">Robert Kirkman</td>
+                <td class="box">Horror</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\treasure island.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\action_adventure\treasure_island.html">TREASURE ISLAND</a></td>
+                <td class="box">Robert Louis Stevenson</td>
+                <td class="box">Action</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\Twilight.jpg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\romance\twilight.html">TWILIGHT</a></td>
+                <td class="box">Stephenie Meyer</td>
+                <td class="box">Romance</td>
+             </tr>
+
+             <tr class="row">            
+                <td class="box"><img src="..\res\books\The two gentlemen of verona.jpeg" class="image"></td>
+                <td class="box"><a class="link" href="..\html\drama\the_two_gentlemen_of_verona.html">TWO GENTLEMEN OF VERONA</a>s</td>
+                <td class="box">Yann Martel</td>
+                <td class="box">Drama</td>
+             </tr>
+  
+</div>
+</div>
+<script>
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+
+<script type="text/javascript" src="../js/transition.js"></script>
+<script src="../js/jquery-3.3.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
