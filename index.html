@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href=".\css\bootstrap.min.css">
+	<link rel="stylesheet" href=".\css\header.css">
+
+
+
+	<!--Side Nav Starts-->
+	<div class="nav navbar-fixed-top">
+
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">Home</a>
+			<a href="./pages/explore.html">Explore</a>
+			<a href="./pages/search.html">Search</a>
+			<a href="./pages/aboutus.html">About</a>
+		</div>
+
+		<div class="headlogo">
+			<img src="res/icons/logofull2.png">
+		</div>
+
+		<span class="menu" style="font-size:55px;cursor:pointer;color:black;" onclick="openNav()">&#9776; </span>
+
+	</div>
+	<!--Side Nav Ends-->
+
+
+</head>
+
+
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up" id="arrow"></span></button>
+	<!--Carousel Starts-->
+
+	<div class="row">
+		<!-- Carousel -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="./res/slides/stephenslide.png" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="./res/slides/helenslide.png" alt="Second slide">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- /Carousel -->
+
+	<!--Parallax-->
+
+		<!--Explore-->
+
+			<section class="sec1">
+				<section class="Text">
+					<h1>Explore</h1>
+					<p>Enter the world of books and choose from our handpicked books in various genres. Relax, explore and pick the
+						right book for yourself..</p>
+				</section>
+				<a href="./pages/explore.html">
+				<div class="iceon">
+					<div class="glyphicon-ring glyphicon-brown"> <span class="glyphicon glyphicon-book glyphicon-bordered"></span>
+				</div>
+				</a>
+			</section>
+
+		<!--/Explore-->
+
+			<div class="bestsellers">
+				<div class="book">
+					<img src="res/img/books/gone_girl_1.jpg" alt="Gone Girl" class="bookpic">
+					<br/><br/>
+					<h3 class="name">Gone Girl</h3>
+					<br/><br/>
+					<a class="data" href="./html/mystery/gone_girl.html">Read more</a>
+				</div>
+			
+				<div class="book">
+					<img src="res\img\books\notebook_1.jpg" alt="Notebook" class="bookpic">
+					<br/><br/>
+					<h3 class="name">The Notebook</h3>
+					<br/><br/>
+					<a class="data" href="./html/romance/the_notebook.html">Read more</a>
+				</div>
+			
+				<div class="book">
+					<img src="res\img\books\it_1.jpeg" alt="It" class="bookpic">
+					<br/><br/>
+					<h3 class="name">It</h3>
+					<br/><br/>
+					<a class="data" href="./html/mystery/it.html">Read more</a>
+				</div>
+			
+			</div>
+
+		<!--Search-->
+
+			<section class="sec2">
+				<section class="Text">
+					<h1>Search</h1>
+					<p>Search for the book you are interested in to get a review and know where to find it..</p>
+				</section>
+	
+				<div class="iceon">
+					<a href="pages/search.html"><div class="glyphicon-ring glyphicon-brown"> <span class="glyphicon glyphicon-search glyphicon-bordered"></span>
+					</div></a>
+				</div>
+			
+				
+			</section>
+
+		<!--/Search-->
+	
+			<div class="review">
+
+				  <div class='row'>
+					<div class='col-md-offset-2 col-md-7'>
+					  <div class="carousel slide" data-interval="3000" data-ride="carousel" id="quote-carousel" style="margin-top: 10%;">
+						<!-- Carousel Slides / Quotes -->
+						<div class="carousel-inner">
+							
+						  <!-- Quote 1 -->
+						  <div class="item active">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="res\review1.jpeg" style="width:100px;  height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>Joshua Furst’s second novel, “Revolutionaries,” is about the children of postwar tranquillity who, aghast at the tacit arrangements that underwrote their childhood, poured out of suburbia and into the streets.</p>
+								  <small>-New York Times</small>
+								</div>
+							  </div>
+							</blockquote>
+							</div>
+							
+							
+						  <!-- Quote 2 -->
+						  <div class="item">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width:100px; height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>“Rendered with ‘the brushstroke of memory’ Key West Nights and Other Aftershocks is a haunting, intimate journey through a landscape of loss and redemption. It’s an elegant and impressive collection.” </p>
+								  <small>-Sylvia Curbela</small>
+								</div>
+							  </div>
+							</blockquote>
+							</div>
+							
+
+						  <!-- Quote 3 -->
+						  <div class="item">
+							<blockquote>
+							  <div class="row">
+								<div class="col-sm-3 text-center">
+								  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width:100px; height:100px;">
+								</div>
+								<div class="col-sm-9">
+								  <p>Udayasankar is not new to marrying myth with the modern world. Her previous novel, Immortals, speaks for this. In Beast too, she reimagines the legend of Narasimha avatar with a twist.</p>
+								  <small>-The Hindu</small>
+								</div>
+							  </div>
+							</blockquote>
+						  </div>
+						</div>
+						
+					
+						
+					  </div>                          	
+					</div>
+				  </div>
+			
+			</div>
+
+		<!--Signin-->
+
+			<section class="sec3">
+				<section class="signin">
+					<h1>Sign Up</h1>
+					<p>
+						<form method="post" action="Default.aspx" id="form1">
+							<div class="fields">
+								<h2 class="form-signin-heading">
+									Registration
+								</h2>
+
+								<!--Fields Start-->
+								<label for="txtUsername">
+									Username
+								</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+									<input name="txtUsername" type="text" id="txtUsername" class="form-control" placeholder="Enter Username" required />
+								</div>
+								<br />
+								<label for="txtPassword">
+									Password</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									<input name="txtPassword" type="password" id="txtPassword" title="Password must contain: Minimum 8 characters atleast 1 Alphabet and 1 Number"
+									class="form-control" placeholder="Enter Password (atleast 8 characters)" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
+								</div>
+								<br />
+								<label for="txtConfirmPassword">
+									Confirm Password</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									<input name="txtConfirmPassword" type="password" id="txtConfirmPassword" class="form-control" placeholder="Confirm Password" />
+								</div>
+								<br />
+								<label for="txtEmail">
+									Email</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+									<input name="txtEmail" id="txtEmail" class="form-control" placeholder="Enter Email" required type="email" />
+								</div>
+								<hr />
+								<input type="submit" name="btnSignup" value="Sign up" id="btnSignup" />
+
+								<!--Fields end-->
+							</div>
+						</form>
+					</p>
+				</section>
+			</section>
+
+		<!--/Signin-->
+
+		<!--About us-->
+
+			<a href="./pages/aboutus.html">
+				<section class="sec4">
+					<section class="Text1">
+						<h1>About Us</h1>
+					</section>
+				</section>
+			</a>
+		
+		<!--/About Us-->
+
+	<!--/Parallax-->
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 670 || document.documentElement.scrollTop > 670) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+		</script>
+		
+
+	<script type="text/javascript" src="./js/form.js"></script>
+	<script type="text/javascript" src="./js/transition.js"></script>
+	<script type="text/javascript" src="./js/carousel.js"></script>
+	<script src="./js/jquery-3.3.1.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</body>
+
+</html>
