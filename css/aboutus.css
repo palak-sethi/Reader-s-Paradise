@@ -1,7 +1,9 @@
-
-
-
-
+body{
+	background-image: url("../res/backgrounds/aboutusbg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
 .team-content {
     padding: 0px 15px 15px 15px;
 }
